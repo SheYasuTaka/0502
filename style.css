@@ -1,0 +1,50 @@
+
+body {
+	font-family: "MyricaM M", "Myrica M", "OCBR", "Square721 BT", "Luxi Sans", "HG明朝E", "Meiryo";
+	background-color: black;
+	color: red;
+	text-align: center;
+	transition: background .3s;
+}
+
+div#main-timer {
+	font-size: 128px;
+}
+
+table {
+	margin: 0 auto;
+	border: 1px solid white;
+}
+
+table#monitor {
+	font-size: 128px;
+}
+
+table#panels {
+	font-size: 32px;
+}
+
+table#panels tr {
+	text-align: center;
+	height: 64px;
+}
+
+table#panels td {
+	width: 64px;
+}
+
+td.ctrlpanel {
+	font-size: 40%;
+}
+
+td.cursor {
+	background-color: gray;
+}
+
+#monitor td:not(.filled) {
+	visibility: hidden;
+}
+
+table#panels td.unab {
+	color: #d9ef55;
+}
